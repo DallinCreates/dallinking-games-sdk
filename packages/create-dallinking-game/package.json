@@ -1,0 +1,29 @@
+{
+  "name": "@dallincreates/create-dallinking-game",
+  "version": "1.0.0",
+  "description": "Scaffolds a new single-player game project for games.dallinking.com",
+  "type": "module",
+  "bin": {
+    "create-dallinking-game": "./dist/cli.cjs"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "node ../../scripts/build-package.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
