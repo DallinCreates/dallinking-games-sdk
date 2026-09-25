@@ -1,8 +1,12 @@
 {
   "name": "dallinking-games-sdk",
   "version": "1.0.0",
+  "homepage": "https://games.dallinking.com",
+  "author": {
+    "name": "Dallin King",
+    "url": "https://dallinking.com"
+  },
   "private": true,
-  "author": "Dallin King",
   "workspaces": [
     "packages/*"
   ],

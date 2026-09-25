@@ -28,3 +28,9 @@ npm run build:all
 ```
 
 Runs `vite build` then `scripts/build-zip.js`, producing a `.zip` ready to upload to the games.dallinking.com developer dashboard.
+
+## Links
+
+- [games.dallinking.com](https://games.dallinking.com) — the games portal
+- [dallinking.com](https://dallinking.com) — main site
+- [bio.dallinking.com](https://bio.dallinking.com) — bio & links

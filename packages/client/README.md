@@ -53,3 +53,9 @@ DallinSdk.onPauseRequest(() => {
 - `instanceId` is assigned by the portal during a registration handshake: on load, the SDK sends `SDK_INIT` with its `gameId`; the portal replies `SDK_REGISTERED { instanceId }`; the SDK includes that `instanceId` on every message after that. If the portal never responds (e.g. an older portal that doesn't implement this yet), the SDK logs a warning and continues operating without one rather than failing hard.
 
 Requests reject after 8 seconds if the portal never replies. When the game isn't running inside a portal iframe at all (`isEmbedded === false`, e.g. plain `npm run dev`), no messages are sent and every method resolves instantly with the standalone fallback described above.
+
+## Links
+
+- [games.dallinking.com](https://games.dallinking.com) — the games portal
+- [dallinking.com](https://dallinking.com) — main site
+- [bio.dallinking.com](https://bio.dallinking.com) — bio & links

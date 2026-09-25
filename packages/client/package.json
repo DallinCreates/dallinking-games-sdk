@@ -2,6 +2,11 @@
   "name": "@dallincreates/game-client",
   "version": "1.0.0",
   "description": "Client-side DallinSdk bridge for games embedded in games.dallinking.com",
+  "homepage": "https://games.dallinking.com",
+  "author": {
+    "name": "Dallin King",
+    "url": "https://dallinking.com"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

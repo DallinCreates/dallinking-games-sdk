@@ -2,6 +2,12 @@
 
 SDK for building single-player games hosted on [games.dallinking.com](https://games.dallinking.com). Structured the same way as [`dallinking-boardgames-sdk`](https://github.com/dallincreates/dallinking-boardgames-sdk) (npm workspaces monorepo, hand-rolled dual CJS/ESM `tsc` build), but simplified for single-player games: one `index.html` entry point per game instead of a board/player split, and no server/engine package.
 
+## Links
+
+- [games.dallinking.com](https://games.dallinking.com) — the games portal
+- [dallinking.com](https://dallinking.com) — main site
+- [bio.dallinking.com](https://bio.dallinking.com) — bio & links
+
 ## Packages
 
 - [`packages/client`](./packages/client) — `@dallincreates/game-client`, the `DallinSdk` bridge a game imports to talk to the games.dallinking.com portal from inside its iframe.

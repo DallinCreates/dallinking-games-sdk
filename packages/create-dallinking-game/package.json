@@ -2,6 +2,11 @@
   "name": "@dallincreates/create-dallinking-game",
   "version": "1.0.0",
   "description": "Scaffolds a new single-player game project for games.dallinking.com",
+  "homepage": "https://games.dallinking.com",
+  "author": {
+    "name": "Dallin King",
+    "url": "https://dallinking.com"
+  },
   "type": "module",
   "bin": {
     "create-dallinking-game": "./dist/cli.cjs"
